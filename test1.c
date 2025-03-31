@@ -3,22 +3,19 @@
 static int score= 0;
 
 
-void worngQuestionList(){
+void scoreList(){
     printf("Score: %d \n", score);
 }
 void finalResult(){
     char loop;
-    printf("# Do you want to try again?, Enter y or n: ");
+    printf("\tDo you want to try again? \n\tEnter y or n: ");
     scanf("%s", &loop);
     if(loop == 'Y' || loop == 'y'){
-        choiceFuction();
+        quizChapterDetail();
     }
 }
-void choiceFuction(){
-    printf("    ................................................................\n");
-    int choice;
-    printf("\tSelect your desiralbe chapter(1,10): ");
-    scanf("%d",&choice);
+
+void choiceChapter(int choice){
     switch (choice)
     {
     case 1:
@@ -31,8 +28,14 @@ void choiceFuction(){
     }
 }
 
+
+
 void main(){
     int score = 0 , quiz;
+    quizChapterDetail();
+}
+
+void quizChapterDetail(){
     printf("\n\tGeneral IT Quiz for Entrance Preparation\n\n");
     printf("\t\t\tCONTENT\n");
     printf("    ................................................................\n");
@@ -46,10 +49,14 @@ void main(){
     printf("Chapter 8: Over View of Facts Skills and Cybersecurity\n");
     printf("Chapter 9: Network\n");
     printf("Chapter 10: Software\n");
-    choiceFuction();
-    finalResult();
-
+    printf("    ................................................................\n");
+    int choice;
+    printf("\tSelect your desiralbe chapter(1,10): ");
+    scanf("%d",&choice);
+    choiceFuction(choice);
 }
+
+
 void chapter1QuizQuestion(){
     char ans;
     printf("\n1. What is computer?\n");
