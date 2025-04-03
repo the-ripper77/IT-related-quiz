@@ -1,24 +1,20 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 static int score= 0;
 static int mistake=0;
 
-void finalResult();
-void quizChapterDetail();
-void chapter1QuizQuestion();
-
+void scoreList(){
+    printf("Score: %d \n", score);
+}
 void finalResult(){
-    printf("    ................................................................\n");
     char loop;
     int total;
     total = score + mistake;
     printf("\tTotal Point: %d \n", total);
     printf("\tTotal Score: %d\n", score);
-    printf("\tTotal Mistake: %d \n", mistake);
-    score= 0;
-    mistake= 0;
-    printf("    ................................................................\n");
+    printf("\tTotal Mistake: %d", mistake);
+    score = 0;
+    mistake =0;
     printf("# Do you want to try again?, Enter y or n: ");
     scanf("%s", &loop);
     if(loop == 'Y' || loop == 'y'){
@@ -48,7 +44,7 @@ void quizChapterDetail(){
     printf("Chapter 10: Software\n");
     printf("    ................................................................\n");
     int choice;
-    printf("\tSelect your desiralbe chapter(1-10): ");
+    printf("\tSelect your desiralbe chapter(1,10): ");
     scanf("%d",&choice);
     switch (choice)
     {
@@ -71,7 +67,7 @@ void chapter1QuizQuestion(){
     printf("  c. A musical intrument\n");
     printf("  d. A cooking tool\n");
     printf("    ................................................................\n");
-    printf("\tEnter your answer(a,b,c,d): ");
+    printf("\tEnter your answer(a,d): ");
     scanf("%s",&ans);
     if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') 
     {
@@ -79,12 +75,8 @@ void chapter1QuizQuestion(){
         chapter1QuizQuestion();
     }
     else if( (int)ans == 65 || (int)ans == 97){
-        score ++;   
-    }
-    else{
+        score ++;
         mistake++;
-        printf("Your answer is wrong!!\n");
-
     }
     printf("\n2. What was the first electronic computer called?\n");
     printf("  a. IBM PC\n");
@@ -92,7 +84,7 @@ void chapter1QuizQuestion(){
     printf("  c. Electronic Numerical Integrator and Computer(ENIAC)\n");
     printf("  d. Windows\n");
     printf("    ................................................................\n");
-    printf("\tEnter your answer(a,b,c,d): ");
+    printf("\tEnter your answer(a,d): ");
     scanf("%s",&ans);
     if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') 
     {
@@ -101,11 +93,7 @@ void chapter1QuizQuestion(){
     }
     else if( (int)ans == 67 || (int)ans == 99){
         score ++;
-    }
-    else{
         mistake++;
-        printf("\tYour answer is wrong!!\n");
-
     }
     printf("\n3. What are the two main components of a computer?\n");
     printf("  a. Hardware and software\n");
@@ -113,7 +101,7 @@ void chapter1QuizQuestion(){
     printf("  c. Processor and memory\n");
     printf("  d. Monitor and keyboard\n");
     printf("    ................................................................\n");
-    printf("\tEnter your answer(a,b,c,d): ");
+    printf("\tEnter your answer(a,d): ");
     scanf("%s",&ans);
     if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') 
     {
@@ -122,11 +110,7 @@ void chapter1QuizQuestion(){
     }
     else if( (int)ans == 65 || (int)ans == 97){
         score ++;
-    }
-    else{
         mistake++;
-        printf("\tYour answer is wrong!!\n");
-
     }
     printf("\n4. What does CPU stands for?\n");
     printf("  a. Centeral processing unit\n");
@@ -134,7 +118,7 @@ void chapter1QuizQuestion(){
     printf("  c. Centeral power units\n");
     printf("  d. Conntrol Processing units\n");
     printf("    ................................................................\n");
-    printf("\tEnter your answer(a,b,c,d): ");
+    printf("\tEnter your answer(a,d): ");
     scanf("%s",&ans);
     if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') 
     {
@@ -143,11 +127,7 @@ void chapter1QuizQuestion(){
     }
     else if( (int)ans == 65 || (int)ans == 97){
         score ++;
-    }
-    else{
         mistake++;
-        printf("\tYour answer is wrong!!\n");
-        
     }
     printf("\n5. What is the primary function of RAM in a computer?\n");
     printf("  a. To store data permanently\n");
@@ -155,7 +135,7 @@ void chapter1QuizQuestion(){
     printf("  c. To temporarily store dat and instructions for the CPU to access quickly\n");
     printf("  d. To cool the computer\n");
     printf("    ................................................................\n");
-    printf("\tEnter your answer(a,b,c,d): ");
+    printf("\tEnter your answer(a,d): ");
     scanf("%s",&ans);
     if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') 
     {
@@ -164,11 +144,7 @@ void chapter1QuizQuestion(){
     }
     else if( (int)ans == 67 || (int)ans == 99){
         score ++;
-    }
-    else{
         mistake++;
-        printf("\tYour answer is wrong!!\n");
-
     }
 
     finalResult();
