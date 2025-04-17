@@ -46,6 +46,7 @@ void quizChapterDetail(){
     printf("Chapter 8: Over View of Facts Skills and Cybersecurity\n");
     printf("Chapter 9: Network\n");
     printf("Chapter 10: Software\n");
+    printf("Chapter 11: Number System and Conservation Boolean Logic\n");
     printf("    ................................................................\n");
     int choice;
     printf("\tSelect your desiralbe chapter(1-10): ");
@@ -1001,5 +1002,857 @@ void chapter1QuizQuestion(){
         mistake++;
         printf("\tYour answer is wrong!!\n");
     }
+    printf("\n51 Which of the following is the first digital computer to use the \"stored program\" concept?\n");
+    printf("  a. ENIAC\n");
+    printf("  b. EDVAC\n");
+    printf("  c. UNIVAC\n");
+    printf("  d. EDSAC\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n52 UNIVAC is\n");
+    printf("  a. Universal Automatic Computer\n");
+    printf("  b. Universal Array Computer\n");
+    printf("  c. Unique Automatic Computer\n");
+    printf("  d. Unvalued Automatic Computer\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n53 What was the computer invented by John V. Atanasoff and Clifford Berry?\n");
+    printf("  a. ABC\n");
+    printf("  b. Mark I\n");
+    printf("  c. UNIVAC\n");
+    printf("  d. EDVAC\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n54 John Napier invented Logarithm in\n");
+    printf("  a. 1671\n");
+    printf("  b. 1612\n");
+    printf("  c. 1614\n");
+    printf("  d. 1822\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n55 The main electronic component used in second-generation computers was...\n");
+    printf("  a. IC\n");
+    printf("  b. Transistor\n");
+    printf("  c. VLSI\n");
+    printf("  d. Vacuum Tube\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n56 The current generation of computers\n");
+    printf("  a. Second\n");
+    printf("  b. Fifth\n");
+    printf("  c. Fourth\n");
+    printf("  d. Third\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n57 The fifth-generation digital computer will be\n");
+    printf("  a. extremely low-cost\n");
+    printf("  b. expensive\n");
+    printf("  c. artificial intelligence\n");
+    printf("  d. versatility\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n58 A kilobyte also referred to as KB, is equal to\n");
+    printf("  a. 1000 bytes\n");
+    printf("  b. 1024 bytes\n");
+    printf("  c. 2048 bytes\n");
+    printf("  d. 512 bytes\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n59 Mobile computing allows the transmission of data from one wireless-enabled device to another via\n");
+    printf("  a. any device\n");
+    printf("  b. a wired device\n");
+    printf("  c. a wireless-enabled device\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n60 Which of the following can be considered as the drawbacks of the Mobile and Wireless Devices?\n");
+    printf("  a. smaller keypads\n");
+    printf("  b. consumes power rapidly\n");
+    printf("  c. requires a big power source\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n61 Which of the following is the most powerful type of the computer\n");
+    printf("  a. mainframe\n");
+    printf("  b. superconductor\n");
+    printf("  c. microcomputer\n");
+    printf("  d. supercomputer\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n62 Supercomputers are mainly useful for\n");
+    printf("  a. mathematical intensive scientific applications\n");
+    printf("  b. data-retrieval operations\n");
+    printf("  c. input-output intensive processing\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n63 Firmware means...\n");
+    printf("  a. software\n");
+    printf("  b. hardware\n");
+    printf("  c. software available on hardware\n");
+    printf("  d. none\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n64 In a computer, 16 bits of the address bus are used to specify address in the RAM, the number of the addresses will be...\n");
+    printf("  a. 256\n");
+    printf("  b. 65536\n");
+    printf("  c. 16536\n");
+    printf("  d. 16000\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n65 Which is a part of the CPU?\n");
+    printf("  a. Monitor\n");
+    printf("  b. ALU\n");
+    printf("  c. Modem\n");
+    printf("  d. none of them\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n66 The CPU consists of\n");
+    printf("  a. control unit, primary storage and secondary storage\n");
+    printf("  b. input, output and processing\n");
+    printf("  c. control unit, arithmetic logic unit and primary storage\n");
+    printf("  d. input, processing and storage\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n67 An offline device is...\n");
+    printf("  a. a device, which is not connected to CPU\n");
+    printf("  b. a device which is not connected to CPU\n");
+    printf("  c. a device which is in the breakdown stage\n");
+    printf("  d. none of these\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n68 Which of the following is the fastest...\n");
+    printf("  a. CPU\n");
+    printf("  b. magnetic tapes and disks\n");
+    printf("  c. video terminal\n");
+    printf("  d. sensors, mechanical controllers\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n69 The register which contains the data to be written into or readout of the addressed location is known as...\n");
+    printf("  a. index register\n");
+    printf("  b. memory address register\n");
+    printf("  c. memory data register\n");
+    printf("  d. program counter\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n70 The register which keeps track of the execution of a program and which contains the memory address of the next instruction to be executed is known as...\n");
+    printf("  a. index register\n");
+    printf("  b. instruction registers\n");
+    printf("  c. memory address register\n");
+    printf("  d. program counter\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n71 Which of the following is used as storage locations both in the ALU and in the control section of a computer\n");
+    printf("  a. accumulator\n");
+    printf("  b. register\n");
+    printf("  c. adder\n");
+    printf("  d. decoder\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n72 Accumulator is a....\n");
+    printf("  a. hardwired unit\n");
+    printf("  b. sequential circuit\n");
+    printf("  c. finite state machine\n");
+    printf("  d. register\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n73 Arithmetic logic unit....\n");
+    printf("  i. Perform arithmetic operations\n");
+    printf("  ii. Store data\n");
+    printf("  iii. perform comparison\n");
+    printf("  iv. Communicate with input devices\n");
+    printf("  of the above the correct one\n");
+    printf("  a. i only\n");
+    printf("  b. ii only\n");
+    printf("  c. i and ii only\n");
+    printf("  d. i and iii only\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n74 A collection of wires that connects several devices is called...\n");
+    printf("  a. link\n");
+    printf("  b. bus\n");
+    printf("  c. cable\n");
+    printf("  d. port\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n75 Memories in which any location can be reached in a fixed and short amount of time after specifying its address is called...\n");
+    printf("  a. sequential access memory\n");
+    printf("  b. random access memory\n");
+    printf("  c. secondary memory\n");
+    printf("  d. mass storage\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n76 Which of the following is a main secondary storage device?\n");
+    printf("  a. DRAM\n");
+    printf("  b. SRAM\n");
+    printf("  c. Pen drive\n");
+    printf("  d. Hard disk drive\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n77 Which of the following is not used as secondary storage device...\n");
+    printf("  a. semiconductor memory\n");
+    printf("  b. magnetic disk\n");
+    printf("  c. magnetic tape\n");
+    printf("  d. optical disk\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n78. Which of the following memory is volatile...\n");
+    printf("  a. RAM\n");
+    printf("  b. ROM\n");
+    printf("  c. EPROM\n");
+    printf("  d. magnetic tapes\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n79. The memory which is programmed at the time it is manufactured is...\n");
+    printf("  a. ROM\n");
+    printf("  b. RAM\n");
+    printf("  c. PROM\n");
+    printf("  d. EPROM\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n80. Which memory is non-volatile and may be written only once...\n");
+    printf("  a. ROM\n");
+    printf("  b. RAM\n");
+    printf("  c. PROM\n");
+    printf("  d. EPROM\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n81. The fastest type of memory is ...\n");
+    printf("  a. tape\n");
+    printf("  b. semi-conductor memory\n");
+    printf("  c. disk\n");
+    printf("  d. bubble memory\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n82. On-chip cache has ...\n");
+    printf("  a. lower access time than RAM\n");
+    printf("  b. larger capacity than off-chip cache\n");
+    printf("  c. becomes absolute\n");
+    printf("  d. becomes obsolete\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n83. Non-volatility is an important advantage of ...\n");
+    printf("  a. CDs\n");
+    printf("  b. magnetic tapes and disks\n");
+    printf("  c. magnetic bubbles\n");
+    printf("  d. both b and c\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n84. Which of the following statements is wrong...\n");
+    printf("  a. magnetic core memory, RAMs and ROMs have constant access time\n");
+    printf("  b. magnetic tape is non-volatile\n");
+    printf("  c. semi-conductor memories are used as a mass memory medium\n");
+    printf("  d. An EPROM can be programmed, erased and reprogrammed by the user with an EPROM programming instrument\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n85. Which of the following storage is volatile\n");
+    printf("  a. semiconductor memory\n");
+    printf("  b. floppy disk\n");
+    printf("  c. CD-ROM\n");
+    printf("  d. core memory\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n86. RAM chips...\n");
+    printf("  a. allow the computer to store data temporarily\n");
+    printf("  b. store data indefinitely unless you delete it\n");
+    printf("  c. is secondary memory\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n87. EEPROM is...\n");
+    printf("  a. easily erasable\n");
+    printf("  b. non-erasable\n");
+    printf("  c. effectively erasable\n");
+    printf("  d. electrically erasable\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n88. In magnetic disks data is organized on the platter in a concentric set of rings called...\n");
+    printf("  a. sector\n");
+    printf("  b. track\n");
+    printf("  c. head\n");
+    printf("  d. block\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n89. In comparison to the internal (main) memory, tape or disk memory is...\n");
+    printf("  a. slower and more expensive\n");
+    printf("  b. slower and less expensive\n");
+    printf("  c. faster and more expensive\n");
+    printf("  d. faster and less expensive\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n90. A microcomputer consists of at least an input unit, an output unit, a microprocessor unit and a...\n");
+    printf("  a. stabilizer\n");
+    printf("  b. memory unit\n");
+    printf("  c. printer\n");
+    printf("  d. network\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n91. Magnetic tape can serve as....\n");
+    printf("  a. input media\n");
+    printf("  b. output media\n");
+    printf("  c. secondary storage media\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n92. Inputs to your computer is accomplished using the...\n");
+    printf("  a. screen\n");
+    printf("  b. keyboard\n");
+    printf("  c. printer\n");
+    printf("  d. plotter\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n93. Which of the following device can be used to directly input printed text\n");
+    printf("  a. OCR\n");
+    printf("  b. mouse\n");
+    printf("  c. MIC\n");
+    printf("  d. Joystick\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n94. Bar codes stores information using ...\n");
+    printf("  a. punched holes\n");
+    printf("  b. dots\n");
+    printf("  c. thick and thin lines\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    printf("\tEnter your answer(a,b,c,d): ");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n95. In which storage device, recording is done by burning tiny pits on a circular disk\n");
+    printf("  a. punched cards\n");
+    printf("  b. floppy disk\n");
+    printf("  c. CD\n");
+    printf("  d. magnetic tape\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n96. What device is used for entering x-y coordinates\n");
+    printf("  a. card reader\n");
+    printf("  b. keyboard\n");
+    printf("  c. joystick\n");
+    printf("  d. all of the above\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n97. Which of the following is the output device?\n");
+    printf("  a. hard disk\n");
+    printf("  b. scanner\n");
+    printf("  c. printer\n");
+    printf("  d. RAM\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'c' || ans == 'C') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n98. The computer device primarily used to provide hardcopy is the...\n");
+    printf("  a. CRT\n");
+    printf("  b. line printer\n");
+    printf("  c. computer console\n");
+    printf("  d. card reader\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'b' || ans == 'B') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n99. Which of the following printers uses light beam and electrostatically sensitive black powder\n");
+    printf("  a. dot matrix printer\n");
+    printf("  b. daisy wheel printer\n");
+    printf("  c. chain printer\n");
+    printf("  d. laser printer\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'd' || ans == 'D') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+    printf("\n100. Impact printers....\n");
+    printf("  a. strike a ribbon against the paper to produce character images\n");
+    printf("  b. include ink-jet and thermal devices\n");
+    printf("  c. are more expensive than laser printers\n");
+    printf("  d. use optical technology\n");
+    printf("    .................................................................\n");
+    scanf(" %c", &ans);
+    if (ans != 'a' && ans != 'A' && ans != 'b' && ans != 'B' && ans != 'c' && ans != 'C' && ans != 'd' && ans != 'D') {
+        printf("\n Error: The answer you provided is not in the options.\n\tTry again from the beginning!!\n\tYour options are: a, b, c, d \n");
+        chapter1QuizQuestion();
+    } else if (ans == 'a' || ans == 'A') {
+        score++;
+    } else {
+        mistake++;
+        printf("\tYour answer is wrong!!\n");
+    }
+
 finalResult();
+
+
 }
